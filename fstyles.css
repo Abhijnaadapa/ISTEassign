@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+.student {
+        margin-bottom: 20px; 
+}
+    
+.student a {
+        display: block; 
+        margin-bottom: 5px; 
+        text-decoration: none; 
+        color: #f4eaea;
+        text-align: left;
+}
+.student a:last-child {
+        margin-bottom: 0; 
+}
